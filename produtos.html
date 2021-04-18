@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>CakeExpress - Produtos</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/produtos.css">
+	<link rel="stylesheet" type="text/css" href="css/responsivo.css">
+</head>
+<body>
+
+	<!--Cabeçalho do site-->
+	<header class="header">
+		<div class="container">
+			<a href="index.html" class="grid-3">
+				<img src="img/cake-logo.svg" alt="CakeExpress">
+			</a>
+			<!--Navegação-->
+			<nav class="grid-12  header-menu" >
+				<ul>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="receitas.html">Receitas</a></li>
+					<li><a href="contato.html">Contato</a></li>
+
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- Fim do cabeçalho do site-->
+
+	<!--Banner da home-->
+	<section class="introducao-interna fundo-produtos" data-anime="800" class="fadeInDown" >
+		<div class="container">
+			<h1>Produtos</h1>
+			<p>Conheça mais nossas delícias</p>
+		</div>
+	</section>
+	<!-- Final do Banner da Home-->
+
+
+	<!-- Fazer 3 seções para produtos: infantil, casamento e luxo-->
+
+
+	<!--Seção bolo infantil-->
+	<section class="container produto-item">
+
+		<div class="grid-11 ">
+		  <img src="img/foto-titulo.png" alt="bolo infantil">	
+		  <h2>Infantil</h2>
+		</div>
+
+		<div class="grid-5 produto-icone">
+			<img src="img/kids.png" alt="icone infantil">
+		</div>
+
+		<div class="grid-8">
+			<img src="img/bolo-infantil.png" alt="bolo infantil2">
+		</div>
+
+		<div class="grid-8 produto-info">
+			<p>Bolos infantis com diversos sabores que a criançada mais gosta e com design dos seus personagens favoritos dos desenhos animados.</p>
+		</div>
+	</section>
+	<!--Seção bolo infantil-->
+
+
+
+	<!--Seção bolo casamento-->
+	<section class="container produto-item">
+
+		<div class="grid-11 ">
+		  <img src="img/bolo-casamento.png" alt="bolo casamento">	
+		  <h2>Casamento</h2>
+		</div>
+
+		<div class="grid-5 produto-icone">
+			<img src="img/casamento.png" alt="icone casamento">
+		</div>
+
+		<div class="grid-8">
+			<img src="img/bolo-casamento2.png" alt="bolo infantil2">
+		</div>
+
+		<div class="grid-8 produto-info">
+			<p>Bolos de casamento para o momento mais feliz da vida dos casais, celebrando a união e o amor aos olhos do senhor. Decoração personalizada ao gosto do cliente.</p>
+		</div>
+	</section>
+	<!--Seção bolo casamento-->
+
+	<!--Seção bolo Luxo-->
+	<section class="container produto-item">
+
+		<div class="grid-11 ">
+		  <img src="img/bolo-luxo.png" alt="bolo luxo">	
+		  <h2>Luxo</h2>
+		</div>
+
+		<div class="grid-5 produto-icone">
+			<img src="img/luxo.png" alt="icone luxo">
+		</div>
+
+		<div class="grid-8">
+			<img src="img/bolo-luxo2.png" alt="bolo luxo2">
+		</div>
+
+		<div class="grid-8 produto-info">
+			<p>Bolos de luxo para ocasiões mais formais com design único e digno da ocasião como eventos corporativos, coquetéis e aniversários</p>
+		</div>
+	</section>
+	<!--Seção bolo Luxo-->
+
+
+	<!-- Seção do formulário-->
+
+	<section class="orcamento">
+		
+		<div class="container">
+			<h2 class="subtitulo">Orçamento</h2>
+
+			<!--Formulário do orçamento-->
+			<!--Formulário do orçamento-->
+			<form id="formulario" method="POST" action="./enviar-sendgrid.php" class="form grid-8 formphp">
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome" required>
+				<label for="email">E-mail</label>
+				<input type="email" id="email" name="email" required>
+				<label for="telefone">Telefone</label>
+				<input type="phone" id="phone">
+				<!--Macete de enviar SPAM-->
+				<label class="nao-aparece">Se você não é um robô, deixe em branco</label>
+				<input type="text" class="nao-aparece" name="leaveblank">
+
+				<!--Macete de enviar SPAM-->
+				<label class="nao-aparece">Se você não é um robô, não mude este campo</label>
+				<input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+				
+				<label>Mensagem</label>
+				<textarea id="mensage" name="mensagem" required=""></textarea>
+				<button id="enviar" name="enviar" type="submit" class="btn btn-fundo">Enviar</button>
+			</form>
+
+			<div class="dados grid-8">
+				<h2>Dados</h2>
+				<span>(91) 98064-2983</span>
+				<span class="dados-email">orçamento@bikcraft.com</span>
+				<h2>Monte o seu Bolo</h2>
+				<p>Escolha o estilo do seu bolo: </p>
+				<ul>
+					<li>- Recheio</li>
+					<li>- Sabor</li>
+					<li>- Enfeites</li>
+					<li>- Cobertura</li>
+					<li>- Design</li>
+					<li>- Medidas</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</section>
+
+	<!--Fim da seção do formulário-->
+
+	<!--Rodapé do site-->
+	<footer>		
+		<div class="rodape">
+
+			<div class="container">
+
+				<div class="grid-6 rodape-contato">
+					<h3>Contato</h3>
+					<p> - (91) 98064-2983</p>
+					<p> - (91) 3243-2208 </p>
+					<p></p>
+					<p>contato@cakeexpress.com</p>
+					<p>Belém - PA<p>			
+				</div>
+
+				<div class="grid-5 rodape-funcionamento">
+					<h3>Funcionamento</h3>
+					<ul>
+						<li>Segunda a sábado</li>
+						<li>08:00 as 22:00</li>
+					</ul>		
+				</div>
+
+
+				<div class="grid-4 rodape-redes">
+					<h3>Redes sociais</h3>
+					<ul>
+					  <li><a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png"></li></a>
+					  <li><a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="img/instagram.png"></li></a>
+					   <li><a href="#"><img src="img/whatsapp.png" target="_blank"></li></a>
+					</ul>		
+				</div>
+			</div>
+		</div>
+
+		<div class="copy">		
+				<div class="container">
+					<p class="grid-16">Copyright © 2020 CakeExpresss | Desenvolvido por Bruno Albarado de Andrade</p>
+				</div>
+			</div>
+	</footer>
+
+	<script src="./js/simple-anime.js"></script>
+	<script src="./js/simple-form.js"></script>
+	<script src="./js/simple-slide.js"></script>
+	<script src="./js/script.js"></script>
+
+</body>
+</html>

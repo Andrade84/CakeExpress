@@ -1,0 +1,206 @@
+/*Estilo para tablet*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+	.produto-item h2{
+		
+		top: -150px;
+
+	}	
+
+	.produto-icone{
+		padding: 40px 0;
+		width: 220px;
+		height: 220px;
+	}
+
+	.produto-icone img{
+		margin-top: -30px;
+		margin-left: 10px;
+		width: 204px;
+		height: 204px;
+	}
+
+
+	.produto-info{
+		padding: 60px;
+	}
+
+	.dados{
+		padding-left: 40px;
+	}
+
+	.orcamento{
+		width: 100%;
+		margin-top: 60px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	
+}
+
+
+	
+
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px){
+ 	
+		 .header{
+		 	position: relative;
+		 }
+
+		 .header img{
+		 	margin-left:100px;
+		 	margin-bottom: 20px;
+		 	border: 3px solid white;
+		 	padding-bottom: 0;
+		 }
+
+		 .header-menu{
+		 	text-align: center;
+		 }
+
+		 .header-menu ul li{
+		 	margin: 0; /*um do lado do outro*/
+		 }
+
+		 .header-menu ul li a{
+		 	color: white;
+		 	border: 3px solid white;
+		 	width: 140px;
+		 	display: block; 
+		 	float: left;
+		 	padding: 10px 0;
+		 }
+
+
+		 .header-menu ul li a:hover{
+		 	border-color: #68352b;	
+		 }
+
+		 .introducao{
+		 	margin-top: 0px;
+		 	padding-top: 40px;
+		 	background: url("../img/bolo-infantil2.jpg") no-repeat center;
+		 	background-position: -10px;
+		 }
+
+		 .introducao a{
+			color: white;	 	
+			background-color:  #FF8DB7;	
+		 }
+		 .introducao a:hover{
+			color: white;	 	
+		 }
+
+		 .rodape h3{
+		 	text-align: center;
+		 }
+
+		 .rodape h3:after{
+		 	margin: 0 auto;
+		 	margin-top: 5px;
+		 }
+
+		 .rodape-contato p{
+		 	text-align: center;
+		 	padding: 3px;
+		 }
+
+		 .rodape-funcionamento{
+		 	text-align: center;
+		 	padding: 3px;
+		 }
+
+		.qualidade .subtitulo{
+			margin-left: 50px;
+		}
+
+		.qualidade .call{
+			margin-left: 50px;
+		}
+
+		.fundo-sobre{
+			background-position: -250px;
+			margin:0;
+		}
+
+
+
+
+		.subtitulo-interno h2{
+			text-align: center;
+		}
+
+		.missao-sobre h2{
+			text-align: center;
+			padding: 10px;	
+			font-size: 18px;
+		}
+
+
+		.missao-sobre h2:after{
+		 	margin: 0 auto;
+		 }
+
+		.missao-sobre p{
+			font-size: 14px;
+			line-height: 25px;
+			margin-bottom: 1em; /*espeçamento entre linhas*/
+			padding-right: 0px;
+			color: #68352b;
+		}
+
+
+		.missao-sobre ul li{
+			font-size: 14px;
+			line-height: 25px;
+		    color: #68352b;
+		}
+
+		.fundo-produtos{
+			margin: 0;
+		}
+
+		.produto-item{
+
+			padding-top: 60px;
+		}
+
+		.produto-item h2{
+			
+			top: -110px;
+			margin-bottom: -68px;
+			
+		}
+
+		.produto-icone{
+			padding: 30px 0;
+			width: 300px;
+			height: 220px;
+		}
+
+		.produto-icone img{
+			margin-top: -30px;
+			margin-left: 50px;
+			width: 204px;
+			height: 204px;
+		}
+
+		.produto-info{
+			padding: 40px;
+		}
+
+		.fundo-receitas{
+			margin: 0;
+		}
+
+		.fundo-contato{
+			margin: 0;
+		}
+
+		.morango{
+			margin-left: 184px;
+		}
+
+}

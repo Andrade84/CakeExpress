@@ -1,0 +1,159 @@
+.fundo-produtos{
+	background-image: url("../img/produto-capa.png");
+}
+
+.produto-item{
+
+	padding-top: 60px;
+}
+
+.produto-item h2{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 40px;
+	color: #68352b;	
+	position: relative;
+	top: -180px;
+	text-align: center;
+	margin-bottom: -55px;
+}
+
+.produto-item h2:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #68352b; 
+	margin: 10px auto; /*Alinhar separador ao centro*/
+}
+
+.produto-icone{
+	background:#FF8DB7;
+	padding: 38px;
+	width: 280px;
+	height: 279px;
+}
+
+.produto-icone img{
+	width: 204px;
+	height: 204px;
+}
+
+.produto-info{
+	background: #FF8DB7;
+	padding: 88px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+/*Formulário de orçamento do site*/
+
+.orcamento{
+	background-color: #C2EEF8;
+	width: 100%;
+	margin-top: 60px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+
+.form {
+	padding-right: 60px 0;
+}
+
+.form label{
+	display: block;/*Ajeitar as labels*/
+	font-size: 18px;
+	font-weight: bold;
+	color: #68352b;
+	font-family: Georgia,"Times New Roman",serif;
+	line-height: 25px;
+}
+
+.form input{
+	display: block;
+	width: 100%;
+	border: 4px solid #68352b;
+	color: #000;
+	padding: 5px 0;
+	outline: none;/*tirar estilozinho azul*/
+	font-size: 14px;
+	font-family: Georgia,"Times New Roman",serif;
+	margin-bottom: 10px;
+}
+
+
+.form textarea{
+	display: block;
+	width: 100%;
+	border: 4px solid #68352b;
+	color: #000;
+	padding: 5px 0;
+	outline: none;/*tirar estilozinho azul*/
+	font-size: 14px;
+	font-family: Georgia,"Times New Roman",serif;
+	margin-bottom: 10px;
+	height: 150px;
+}
+
+.form button{
+	background: none;
+	cursor: pointer;
+	color: #68352b;
+	border-radius: 15px;
+	padding: 10px 20px;
+}
+
+.dados{
+	padding-left: 60px;
+}
+.dados h2{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #68352b;
+	font-weight: bold;
+	line-height: 25px;
+	padding: 10px;
+}
+
+.dados span{
+	display: block;
+	font-size: 18px;
+	color: #68352b;
+	font-family: Georgia,"Times New Roman",serif;
+	line-height: 30px;
+}
+
+.dados-email{
+	margin-bottom: 40px;
+}
+
+/*escolher da lista apenas os impares*/
+.dados ul li{
+	font-family: Georgia,"Times New Roman",serif;
+	font-size: 14px;
+	color: #68352b;
+	padding: 10px 5px;
+	font-weight: bold;
+}
+
+.dados ul li:nth-child(odd){
+	background: #fff;
+}
+
+.dados p{
+	color: #68352b;
+	padding-bottom: 15px;
+}
+
+.rodape{
+	width: 100%;
+	background-color: white;
+	padding: 40px;
+
+}

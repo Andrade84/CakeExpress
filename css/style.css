@@ -1,0 +1,442 @@
+/* Estilos Gerais do CakeExpress*/
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*padrão do parágrafo*/
+p{
+	font-family: Georgia;
+	font-family: 14px;
+	line-height: 20px;
+}
+
+img{
+	max-width: 100%; /*Imagem fluida*/
+}
+
+
+/*Botão de orçamento*/
+
+.btn{
+	border: 3px solid #FF8DB7;
+	padding: 10px; 
+	color: #FF8DB7;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+/*Mudar as cores do texto do botão e da sua borda*/
+.btn:hover{
+	color:#FF8DB7;
+	border: 3px solid #fff;
+}
+
+.btn-fundo:hover{
+	color: #68352b;
+	border: 3px solid #68352b;
+}
+
+/*Títulos da seções de produtos*/
+.subtitulo{
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #68352b;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+
+
+}
+
+/*Separador do subtitulo*/
+.subtitulo:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #68352b; /*Cor Chocolate*/
+	margin: 10px auto; /*Alinhar separador ao centro*/
+}
+
+/*Subtitulo interno das páginas h2*/
+.subtitulo-interno{
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #68352b;
+	text-transform: uppercase;
+}
+
+/*Separador do subtitulo*/
+.subtitulo-interno:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #68352b; /*Cor Chocolate*/
+	margin: 10px; /*Alinhar separador ao centro*/
+
+}
+
+/*Todos as páginas vão ter uma introdução interna*/
+.introducao-interna{
+	width: 100%;
+	margin-top: 92px;
+	height: 160px;
+	background-size: cover;
+	text-align: center;
+}
+
+/*Título da introdução interna*/
+.introducao-interna h1{
+	font-size: 36px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+.introducao-interna p{
+	color: #fff;
+}
+
+/*Separador*/
+
+.introducao-interna h1:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 4px;
+	background: #FF8DB7; /*Cor Chocolate*/
+	margin: 10px auto; /*Alinhar separador ao centro*/
+}
+
+
+/* Header */
+
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%; /*Largura total*/
+	background: #FF8DB7; /*Rosa morango*/
+	padding: 15px 0;
+	z-index: 10; /*Cabeçalho em cima de todas as seções*/
+}
+
+.header-menu{
+	text-align: right;
+}
+
+.header-menu ul li{
+	display: inline-block; /*Colocar elementos um do lado do outro*/
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.header-menu ul li a{
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+}
+.header-menu ul li a:hover{
+	color: #68352b; /*Cor Chocolate*/
+}
+
+
+/*Introdução*/
+.introducao{
+	width: 100%;
+	background: url("../img/home-cake.jpg") no-repeat center;
+	background-position: -40px; /*Ajeitando a imagem*/
+	margin-top: 96px;/*Fazer o conteúdo descer*/
+	height: 420px;
+	text-align: center;
+	padding-top: 120px;/*trazer conteudo para baixo*/
+}
+
+.introducao h1{
+	font-size: 48px;
+	color: #68352b;
+	font-weight: bold;
+}
+
+.quote-externo{
+	max-width: 320px;
+	margin: 0 auto;
+    color: #68352b; /*Cor Chocolate*/
+    margin-bottom: 40px;/*Descer o botão da introdução*/
+}
+
+.quote-externo{
+	font-style: italic;
+}
+
+/*Separador*/
+.quote-externo p:before,.quote-externo p:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #68352b; /*Cor Chocolate*/
+	margin: 10px auto; /*Alinhar separador ao centro*/
+}
+
+.quote-externo cite{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: .1em;
+}
+
+
+/*Produtos*/
+.produtos{
+	padding: 60px 0; /*Desgrudar do banner*/
+
+}
+
+/*Fundo rosa do "Infantil"*/
+.produtos-lista li{
+   background: #FF8DB7;	
+
+}
+
+.produtos-lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	text-align: center;
+
+}
+
+
+/*Borda rosa com fundo branco*/
+.produtos-icone{
+	background: #FFF;
+	border: 4px solid #FF8DB7;
+	padding: 20px;
+	text-align: center; /*imagem também ao centro*/
+}
+
+/*Botão do call-to-action*/
+.call{
+	clear: both;/*Limpar fluxo do float*/
+	padding-top: 40px;
+	text-align: center; /*alinhar o botão e texto*/
+}
+
+.call p{
+	color:  #68352b;
+	margin-bottom: 20px;
+}
+
+/*Portfólio*/
+
+.receita{
+
+	width: 100%;
+	background-color: #C2EEF8; /*Azul doce*/
+	padding: 40px; /*espaçamento*/
+}
+
+/*Estou usando uma pseudoclasse para comunicar com o item 3 da lista*/
+.receita-lista li:last-child{
+	margin-top: 20px;
+}
+
+.qualidade{
+	padding: 60px 0;
+}
+
+.qualidade-lista li{
+	background-color: #FF8DB7;
+	border-radius: 20px;
+	text-align: center;
+	margin-left: 20px;
+
+}
+
+.qualidade-lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	padding:10px;
+}
+
+.qualidade-lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #FFF; 
+	margin: 10px auto; /*Alinhar separador ao centro*/
+}
+
+.receita-icone{
+	padding: 10px;
+	text-align: center;
+}
+
+/*Quebra*/
+
+.quebra{
+  width: 100%;
+  background: url("../img/bolo-banner1.jpg") no-repeat center;
+  height: 220px;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.rodape{
+	width: 100%;
+	background-color:  #C2EEF8;
+	color: #68352b;
+	font-weight: bold;
+
+}
+
+.rodape h3{
+
+	font-size: 18px;
+	line-height: 25px;
+	color: #68352b;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.rodape h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #68352b; 
+	margin: 10px auto 0px 26px; /*Alinhar separador ao centro*/
+}
+
+.rodape-contato ul li{
+	padding-right: 40px;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Georgia, "Times New Roman",serif; 
+}
+
+.rodape-redes{
+	margin-right: 10px;
+	text-align: center;
+}
+
+.rodape-redes ul li{
+	display: inline-block;
+
+}
+
+.rodape-redes ul li a img{
+	width: 50px;
+	height: 50px;
+	padding: 8px;
+}
+
+.copy{
+	font-size: 14px;
+	width: 100%;
+	background-color:#FF8DB7;
+	padding: 20px 0;
+	color: white;
+	font-family: Georgia, "Times New Roman",serif; 
+}
+
+/*JAVASCRIPT SLIDE*/
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+/*Estilizando a navegação dos slides*/
+[data-slide-nav]{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+[data-slide-nav] > button{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 4px;
+	border:none;
+	padding: 0px;
+	border-radius: 6px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: #FF8DB7;
+}	
+
+[data-slide-nav] > button.active{
+
+	background: #68352b; 
+}
+
+/*Estilizando a animação */
+
+[data-anime]{
+	opacity: 0;
+	transform: none;
+	transition: opacity 800ms, transform 800ms;
+}
+
+.fadeInDown{
+	transform: translate3d(0,-20px,0);
+}
+
+.anime{
+	opacity: 1;
+	transition: opacity 900ms;
+}
+
+/*Esconder o truque anti-spam*/
+.nao-aparece{
+	visibility: hidden;
+	height: 0px;
+	position: absolute;
+}
+
+/*Estilizar mensagens de aviso de formulário*/
+
+#form-sucesso{
+  color: #31aa39;
+  font-weight: bold;
+}
+
+#form-erro{
+	color: #f64540;
+	font-weight: bold;
+}
